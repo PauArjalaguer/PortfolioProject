@@ -1,0 +1,61 @@
+body {
+    font-family: "Manrope", sans-serif;
+    margin: 0;
+    padding: 0 var(--spacing-3);
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    align-items: stretch;
+    padding: 5px;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+}
+
+.nav-li {
+    text-decoration: none;
+
+    list-style-type: none;
+    display: inline;
+    margin: 5px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #242424;
+}
+a:hover{
+    color:#848484;
+}
+#edu-container{
+    display: flex;
+}
+#edu-text-container{
+    margin-right: 25px;
+}
+#edu-text-container p{ text-align: justify;}
+#edu-image img{
+    width:300px;
+}
+summary {
+    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+}
+
+summary h3 {
+    display: inline;
+    cursor: pointer;
+}
+i{font-size: 2em;}
+#skills-container{display: flex; width:100%;justify-content: space-between;}
